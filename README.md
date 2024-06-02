@@ -92,11 +92,3 @@ VITE_APP_API_HOST=http://localhost:5000
 $ cd server
 $ npm run dev
 ```
-*** 
-### Author
-
-[Sonam Rinzin Gurung](https://www.linkedin.com/in/sonam-rinzin-gurung-59060b211/)
-
-### Repository
-
-[Room Plus](https://github.com/SonamRinzinGurung/Real-Estate-Rental-and-Lodger-Management-System)
