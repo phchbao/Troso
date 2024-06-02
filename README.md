@@ -1,6 +1,7 @@
 # Trọ Số
 
-Trọ số là một hệ thống quản lý phòng và cho tìm kiếm phòng trọ. Đây là một ứng dụng web cho phép bên cho thuê và người thuê kết nối với nhau. Chủ sở hữu có thể đăng phòng cho thuê, quản lý ngườiTạo tệp .env chứa các nội dung sau:
+Trọ số là một hệ thống quản lý phòng và cho tìm kiếm phòng trọ. Đây là một ứng dụng web cho phép bên cho thuê và người thuê kết nối với nhau. Chủ sở hữu có thể đăng phòng cho thuê, quản lý người
+Tạo tệp .env chứa các nội dung sau:
 ```
 MONGO_URI= <your_mongo_uri>
 ACCESS_TOKEN_SECRET_OWNER= <your_access_token_secret_owner>
