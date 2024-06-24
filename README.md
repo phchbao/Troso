@@ -22,22 +22,22 @@ Trọ số là một hệ thống quản lý phòng tìm kiếm phòng trọ. Đ
 2. Định cấu hình các biến môi trường bên trong thư mục server:
 - Tạo tệp .env chứa các nội dung sau:
 ```bash
-MONGO_URI= <your_mongo_uri>
-ACCESS_TOKEN_SECRET_OWNER= <your_access_token_secret_owner>
-ACCESS_TOKEN_SECRET_TENANT= <your_access_token_secret_lodger>
-REFRESH_TOKEN_SECRET_OWNER= <your_refresh_token_secret_owner>
-REFRESH_TOKEN_SECRET_TENANT= <your_refresh_token_secret_lodger>
+MONGO_URI= 
+ACCESS_TOKEN_SECRET_OWNER= 
+ACCESS_TOKEN_SECRET_TENANT= 
+REFRESH_TOKEN_SECRET_OWNER= 
+REFRESH_TOKEN_SECRET_TENANT= 
 ACCESS_LIFETIME=15m
 REFRESH_LIFETIME=7d
-CLOUDINARY_API_KEY= <your_cloudinary_api_key>
-CLOUDINARY_API_SECRET= <your_cloudinary_api_secret>
-RESET_PASSWORD_KEY= <your_reset_password_key>
-EMAIL_VERIFICATION_KEY= <your_email_verification_key>
+CLOUDINARY_API_KEY= 
+CLOUDINARY_API_SECRET= 
+RESET_PASSWORD_KEY= 
+EMAIL_VERIFICATION_KEY= 
 CLIENT_URL=http://localhost:3000
 EMAIL_HOST=smtp.gmail.com
 EMAIL_PORT=587
-EMAIL_USER= <your_gmail_address>
-EMAIL_PASS= <your_gmail_pass> or <your_gmail_app_password>
+EMAIL_USER= 
+EMAIL_PASS= 
 ```
 3. Định cấu hình các biến môi trường bên trong thư mục client:
 - Tạo tệp .env.local chứa các nội dung sau:
