@@ -169,12 +169,12 @@ const OwnerUserDetailPage = () => {
         <div className="mb-12 md:w-3/4 md:mt-10">
           {rooms?.length === 0 ? (
             <div>
-              <h4 className="text-center">No Real Estate Rooms</h4>
+              <h4 className="text-center">Chưa có bài đăng</h4>
             </div>
           ) : (
             <>
               <h3 className="text-center font-heading font-semibold text-4xl">
-                {rooms?.length > 1 ? "Rooms" : "Room"}
+                {rooms?.length > 1 ? "Danh sách phòng" : "Room"}
               </h3>
               <div className="justify-center flex flex-wrap gap-8 mt-6 mx-4 md:mx-0">
                 {rooms?.map((item) => {

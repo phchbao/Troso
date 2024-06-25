@@ -42,7 +42,7 @@ const getAllRooms = async (req, res) => {
     .sort({ createdAt: -1 });
 
   const page = Number(req.query.page) || 1;
-  const limit = Number(req.query.limit) || 4;
+  const limit = Number(req.query.limit) || 3;
   const skip = (page - 1) * limit;
 
   roomResult = roomResult.skip(skip).limit(limit);

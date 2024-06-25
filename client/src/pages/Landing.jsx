@@ -114,10 +114,13 @@ const Landing = () => {
             Vì sao nên chọn chúng tôi?
           </h1>
           <p className="mt-8 text-center text-gray-700 w-4/5 mx-auto text-yellow">
-          &#x2713; Website đơn giản, dễ thao tác
+          &#x2713; Không quảng cáo
           </p>
           <p className="mt-8 text-center text-gray-700 w-4/5 mx-auto text-yellow">
-          &#x2713; Không hiển thị quảng cáo
+          &#x2713; Không trung gian
+          </p>
+          <p className="mt-8 text-center text-gray-700 w-4/5 mx-auto text-yellow">
+          &#x2713; Đơn giản, dễ thao tác
           </p>
           <p className="mt-8 text-center text-gray-700 w-4/5 mx-auto text-yellow">
           &#x2713; Lắng nghe ý kiến người dùng
@@ -127,7 +130,7 @@ const Landing = () => {
         <div className="md:w-2/4">
           <p><h1 className="text-2xl md:text-4xl font-heading text-center font-extrabold">Hướng dẫn sử dụng website</h1></p>
           <div style={{ height: '35px' }}></div> 
-        <iframe width="672" height="378" src="https://www.youtube.com/embed/1111111fodAJ-1dN3I?si=xt2KGVV9RXjVsLei" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="672" height="378" src="https://www.youtube.com/embed/VUBEwY5vgq4?si=Xd2wIdoLtQEhe7ek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         <main className="" ref={ref}>
           <section className="flex gap-16">

@@ -89,7 +89,7 @@ const ProfilePage = () => {
           <div className="mb-4 text-center">
             <h3 className="font-heading font-bold">Hồ sơ</h3>
             <p className="text-gray-400 -mt-3 font-robotoNormal">
-              View or update profile
+              Xem hoặc chỉnh hồ sơ
             </p>
           </div>
           <form id="form" onSubmit={handleSubmit} className="">

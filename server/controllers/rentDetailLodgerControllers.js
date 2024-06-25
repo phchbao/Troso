@@ -40,7 +40,7 @@ const getAllPaymentHistory = async (req, res) => {
   }).sort({ createdAt: -1 });
 
   const page = Number(req.query.page) || 1; //page number from query string
-  const limit = Number(req.query.limit) || 5; //limit of items per response
+  const limit = Number(req.query.limit) || 3; //limit of items per response
   const skip = (page - 1) * limit; //calculate the number of documents to skip
 
   // get the results from the database

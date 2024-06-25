@@ -139,12 +139,12 @@ const CreatePaymentHistory = () => {
               </div>
               <div className="flex mb-3 gap-4">
                 <h5 className="text-gray-700">
-                  {format(
+                  Tổng tiền trọ: {format(
                     calculateTotalRent(
                       rentDetail?.contractTerm,
                       rentDetail?.room.price
                     )
-                  )}.VND/tháng
+                  )}.VND
                 </h5>
 
               </div>
@@ -226,7 +226,7 @@ const CreatePaymentHistory = () => {
                     }}
                   />
                 ) : (
-                  "Lưu thông tin"
+                  "Xác nhận"
                 )}
               </Button>
             </div>

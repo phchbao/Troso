@@ -45,6 +45,12 @@ const Footer = () => {
           Trọ số
         </Link>
       </span>
+      <span className="block text-sm  sm:text-center ">
+      Email: troso@gmail.com
+      </span>
+      <span className="block text-sm  sm:text-center ">
+      Phone: 0123456789
+      </span>
       <button
         className="fixed bottom-8 right-8 bg-white p-2 rounded-full shadow-md transition duration-300 ease-in-out hover:bg-gray-200 focus:outline-none"
         onClick={scrollToTop}

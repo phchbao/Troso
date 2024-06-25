@@ -132,7 +132,7 @@ const RoomDetail = () => {
                   <HorizontalSplitRoundedIcon />
                 </span>
                 <span className="font-semibold">
-                  Số {room?.beds > 1 ? "beds" : "giường"}
+                  Số {room?.beds > 1 ? "giường" : "giường"}
                 </span>
                 <p className="">{format(room?.beds)} </p>
               </div>

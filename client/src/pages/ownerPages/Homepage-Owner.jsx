@@ -39,7 +39,7 @@ const Homepage = () => {
     <>
       <div className="flex flex-col mt-8 mb-12 md:items-start md:ml-10">
         <h3 className="my-4 font-heading font-bold text-center">
-          {allRoom?.length > 1 ? "Rooms" : "Danh sách phòng cho thuê"}
+          {allRoom?.length > 1 ? "Danh sách bài đăng" : "Room"}
         </h3>
         {isLoading ? (
           <div className="flex justify-center mt-12 h-64 mx-auto">
