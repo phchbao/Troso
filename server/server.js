@@ -57,7 +57,7 @@ app.set("trust proxy", 1); //trust first proxy
 
 app.use(
   cors({
-    origin: process.env.CLIENT_URL,
+    origin: ["https://troso.vercel.app"],
     credentials: true,
   })
 ); //to allow cross origin requests
